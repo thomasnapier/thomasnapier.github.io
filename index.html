@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<!-- Meta tags -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<meta name="description" content="Thomas Napier's website, biography, education, previous experience and published papers."/>
+		<meta name="keywords" content="thomasnapier, ThomasNapier, Thomas Napier, thomas napier youtube, thomas napier github, thomas napier cv, thomas napier portfolio"/>
+		
+		<meta name="author" content="Thomas Napier" />
+		<meta name="copyright" content="Work protected by copyright; no distribution without permission." />
+		
+		<!-- Title + Icon -->
+		<title>Thomas Napier</title>
+		<link rel="icon" type="image/x-icon" href="assets/documents/imgs/ThomasNapier.ico">
+
+		<!-- Improve SEO -->
+		<meta name="robots" content="index,follow" />
+
+		<!-- Styles -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+
+	</head>
+
+	<!-- Google tag (gtag.js) & Google Analytics -->
+	<script>
+        fetch('./assets/js/config.json')
+            .then(response => response.json())
+            .then(config => {
+                const scriptTag = document.createElement('script');
+                scriptTag.async = true;
+                scriptTag.src = `https://www.googletagmanager.com/gtag/js?id=${config.googleAnalyticsMeasurementId}`;
+                document.head.appendChild(scriptTag);
+
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', config.googleAnalyticsMeasurementId);
+            })
+            .catch(error => console.error('Error loading the configuration:', error));
+    </script>
+
+	<body>
+
+		<!-- Bottom rounded button -->
+		<div class="options-button" id="options-toggler"><i class="fa-light fa-arrows-repeat"></i></div>
+		<div class="options-button" id="theme"><i class="fa-duotone fa-lightbulb"></i></div>
+
+		<!-- Navbar  -->
+		<nav id="top-nav" class="navbar navbar-expand-md navbar-light bg-light flex-md-nowrap flex-wrap">
+			<div class="container justify-content-center">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
+					<ul class="navbar-nav mx-auto language" id="navbarList">
+						<li class="nav-item">
+							<a class="nav-link active" id="aboutme" href="#" 
+								data-en="About Me">
+								About Me
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="experience" href="#" 
+								data-en="Experience/Skills">
+								Experience/Skills
+						</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="publications" href="#" 
+								data-en="Publications">
+								Publications
+						</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="projects" href="#" 
+								data-en="Projects">
+								Projects
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="links" href="#" 
+								data-en="Cool Links">
+								Cool Links
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container" id="main-content">
+			<div class="row content" id="section-content">
+				
+				<!-- Thomas Napier profile and contact info -->
+				<div id="leftPanel" class="col-md-3 language">
+					<div class="row mb-3">
+						<div class="col">
+							<img src="assets/documents/imgs/ThomasNapier.jpg" class="rounded me-auto d-block img-fluid profilepicture" alt="Thomas Napier profile picture">
+						</div>
+					</div>
+
+					<h3 class="mb-2">Thomas Napier</h3>
+					<hr>
+					<p class="mb-4">
+						<span class="t-secondary"><b style="color: #2bd284 !important;;">PhD Candidate and Graduate Researcher</b></span>
+						<br>
+						<span class="t-secondary">Discipline of Information Technology </span> 
+						<br>
+						<span class="t-secondary">College of Science and Engineering</span>
+						<br>
+						<span class="t-secondary">James Cook University</span>
+					</p>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fal fa-map-marker-alt" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<span 
+								data-en="Townsville, Queensland"> Townsville, Queensland
+							</span> 
+							<br/>
+							<span 
+								data-es="Australia" 
+								data-en="Australia"> Australia
+							</span>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-solid fa-file-alt" style="color: #6c757d;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="assets/documents/ThomasNapierCV.pdf" class="link-dark" target="_blank" data-en="CV [Updated 01/2025]">CV [Updated 01/2025]</a>
+						</div>
+					</div>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-solid fa-envelope" style="color: #c71610;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="mailto:thomas.napier@jcu.edu.au" class="link-dark">thomas.napier@jcu.edu.au</a>
+						</div>
+					</div>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-linkedin" style="color: #0a66c2;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="https://www.linkedin.com/in/thomas-napier/" class="link-dark" target="_blank">LinkedIn</a>
+						</div>
+					</div>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-orcid" style="color: #a6ce39;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="https://orcid.org/0000-0003-4218-6731" class="link-dark" target="_blank">ORCID</a>
+						</div>
+					</div>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-github" style="color: #171515;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="https://github.com/thomasnapier" class="link-dark" target="_blank">GitHub</a>
+						</div>
+					</div>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-gitlab" style="color: #fc6d26;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="https://gitlab.com/thomasnapier" class="link-dark" target="_blank">GitLab</a>
+						</div>
+					</div>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-solid fa-graduation-cap" style="color: #4285f4;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="https://scholar.google.com.au/citations?user=0iFYOXoAAAAJ&hl=en" class="link-dark" target="_blank">Google Scholar</a>
+						</div>
+					</div>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-brands fa-researchgate" style="color: #00ccbb;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="https://www.researchgate.net/profile/Thomas-Napier-2" class="link-dark" target="_blank">ResearchGate</a>
+						</div>
+					</div>
+					
+					<div class="row mb-2">
+						<div class="col-1">
+							<i class="fa-solid fa-briefcase" style="color: #6c757d;" aria-hidden="true"></i>
+						</div>
+						<div class="col-10">
+							<a href="https://portfolio.jcu.edu.au/Researchers/thomas.napier" class="link-dark" target="_blank">Academic Portfolio</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- About Me -->
+				<div class="col-md-8 offset-md-1 mb-5 active" id="aboutmeContent">
+					<div class="container">
+						<div class="row language">
+							<h4 class="mb-4">Short Bio</h4>
+							<hr>
+							</h4>
+							<p class="mt-2 justify">
+							I am a PhD Candidate, Sessional Lecturer and Graduate Research Worker at the Discipline of Information Technology, <a href="https://www.jcu.edu.au/college-of-science-and-engineering">College of Science and Engineering</a>, <a href="https://www.jcu.edu.au/">James Cook University (JCU)</a>. I graduated with a Bachelor of Information Technology with Distinction (GPA 6.78/7.00) in 2020 and with First-Class Honours (1A) in 2021, earning the <a href="https://www.jcu.edu.au/graduation/university-medallists">University Medal</a> under the supervision of Prof. Ickjai Lee.
+							</p>
+							<p class="mt-2 justify">
+							Currently, I am in the final year of my PhD (completion in 2025) at JCU, focusing on machine learning techniques for species classification in natural soundscapes. I am supervised by an interdisciplinary advisor panel including Prof. Ickjai Lee, Dr. Euijoon Ahn (Information Technology) and Distinguished Prof. Lin Schwarzkopf, and Dr. Slade Allen-Ankins (Ecology and Zoology).
+							</p>
+							<p class="mt-2 justify">
+							I have also collaborated on several multidisciplinary, industry-based projects, including designing machine learning models for marine biology with the <a href="https://aagai.com.au/">Australian Abalone Growers Association</a>, developing advanced tourism analytics with <a href="https://respax.com/">ResPax</a>, and improving insurance claims processing workflows with <a href="https://helloclaims.com.au/">HelloClaims</a>. These projects involved applying deep learning, data mining, and augmented reality solutions to address real-world challenges.
+							</p>
+							<p></p>
+							<p></p>
+							<h4 class="mb-4">
+								Research Interests
+							</h4>
+								<hr>
+							
+
+							<p class="mt-1">
+								Keywords: Ecoacoustics, bioacoustics, unsupervised clustering, machine learning, sound event detection, dimensionality reduction, data visualization, AR and AI in education, environmental monitoring, software development, generative AI, human-computer interaction.
+							</p>
+
+							<p class="mt-1">
+								My research focuses on developing machine learning techniques and software tools for ecoacoustics analysis, specialising in feature extraction, unsupervised clustering, and scalable annotation workflows. I also explore AR and AI technologies in education, including tools for teaching IT concepts and using generative AI for assessment. My work emphasises user-friendly, scalable solutions that support biodiversity monitoring, conservation, and educational innovation.
+							</p>
+							<p></p>
+							<p></p>
+							<h4 class="mb-4">Education</h4>
+							<hr>
+
+							<!-- PhD -->
+							<div class="education-block mt-3">
+								<div class="row">
+									<div class="col-md-2">
+										<img src="https://scontent.fbne3-1.fna.fbcdn.net/v/t39.30808-6/347432109_225423400207913_7092732218176318666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=b-hokN9Op9wQ7kNvgHbHZHH&_nc_zt=23&_nc_ht=scontent.fbne3-1.fna&_nc_gid=As6ssE_Q5wMOvJWpUUUDi0v&oh=00_AYAEIskFZcfHCT1_0YaAa06-ULeNhYsNK1T6xXDzKK0e_A&oe=679C48F9" alt="James Cook University Logo" class="img-fluid">
+									</div>
+									<div class="col-md-10">
+										<h5 class="fw-bold">James Cook University</h5>
+										<p class="mb-1"><b>Doctor of Philosophy (PhD), Information Technology</b></p>
+										<p class="mb-1">Feb 2022 - Aug 2025</p>
+										<p>Research Area: Species Classification using Deep Learning-Based Signal Processing Techniques in Natural Soundscapes</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<!-- Honours -->
+							<div class="education-block mt-3">
+								<div class="row">
+									<div class="col-md-2">
+										<img src="https://scontent.fbne3-1.fna.fbcdn.net/v/t39.30808-6/347432109_225423400207913_7092732218176318666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=b-hokN9Op9wQ7kNvgHbHZHH&_nc_zt=23&_nc_ht=scontent.fbne3-1.fna&_nc_gid=As6ssE_Q5wMOvJWpUUUDi0v&oh=00_AYAEIskFZcfHCT1_0YaAa06-ULeNhYsNK1T6xXDzKK0e_A&oe=679C48F9" alt="James Cook University Logo" class="img-fluid">
+									</div>
+									<div class="col-md-10">
+										<h5 class="fw-bold">James Cook University</h5>
+										<p class="mb-1"><b>Bachelor of Information Technology (Honours)</b></p>
+										<p class="mb-1">2020 - 2021</p>
+										<p>Grade: First Class (1A), 7.00 GPA, University Medal</p>
+										<p>Research Area: Using Mobile-Based Augmented Reality and Object Detection for Real-Time Abalone Growth Monitoring</p>
+										<a href="assets/documents/dissertations/Final Honours Thesis - Thomas Napier.pdf" class="link-dark" target="_blank"><i class="fa-solid fa-file-pdf"></i> View Dissertation</a>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<!-- Bachelor's -->
+							<div class="education-block mt-3">
+								<div class="row">
+									<div class="col-md-2">
+										<img src="https://scontent.fbne3-1.fna.fbcdn.net/v/t39.30808-6/347432109_225423400207913_7092732218176318666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=b-hokN9Op9wQ7kNvgHbHZHH&_nc_zt=23&_nc_ht=scontent.fbne3-1.fna&_nc_gid=As6ssE_Q5wMOvJWpUUUDi0v&oh=00_AYAEIskFZcfHCT1_0YaAa06-ULeNhYsNK1T6xXDzKK0e_A&oe=679C48F9" alt="James Cook University Logo" class="img-fluid">
+									</div>
+									<div class="col-md-10">
+										<h5 class="fw-bold">James Cook University</h5>
+										<p class="mb-1"><b>Bachelor of Information Technology</b></p>
+										<p class="mb-1">2017 - 2020</p>
+										<p>Grade: 6.78/7.00 GPA, Graduated With Distinction</p>
+										<p>Minoring in Human-Computer Interactions and Games Design</p>
+									</div>
+								</div>
+							</div>
+							<p></p>
+							<p></p>
+							<h4 class="mb-4">Awards</h4>
+							<hr>
+
+							<!-- Award 1 -->
+							<div class="award-block mt-3">
+								<h5 class="fw-bold">HDR CSE Incentive Award</h5>
+								<p class="mb-1"><b>Issued by James Cook University · Oct 2024</b></p>
+								<p>Awarded to higher degree by research candidates for achieving excellent performance that correlates with increasing on-time completion based on evidence of accepted publications and external grants.</p>
+								<a href="assets/documents/imgs/honors_awards/HDR.pdf" class="link-dark" target="_blank"><i class="fa-solid fa-file-pdf"></i> View Certificate</a>
+							</div>
+							<hr>
+
+							<!-- Award 2 -->
+							<div class="award-block mt-3">
+								<h5 class="fw-bold">CSE Competitive Research Training Grant 2023</h5>
+								<p class="mb-1"><b>Issued by James Cook University · Apr 2023</b></p>
+								<p>Awarded a highly competitive research training grant (out of 70 total applications).</p>
+							</div>
+							<hr>
+
+							<!-- Award 3 -->
+							<div class="award-block mt-3">
+								<h5 class="fw-bold">Bev Frangos Graduate Instructor Prize</h5>
+								<p class="mb-1"><b>Issued by James Cook University · Mar 2023</b></p>
+								<p>Awarded to the student enrolled in a masters or PhD program in Electrical and Electronic Engineering, Electronic Systems and Internet of Things Engineering, or Information Technology who has made an outstanding contribution to teaching.</p>
+								<a href="https://www.jcu.edu.au/jcu-prizes/browse-all-prizes/prizes-a-c/bev-frangos-graduate-instructor-prize-in-electrical-and-electronic-engineering-and-electronic-systems-and-internet-of-things-engineering-or-information-technology" class="link-dark" target="_blank"><i class="fa-solid fa-link"></i> View Award</a>
+							</div>
+							<hr>
+
+							<!-- Award 4 -->
+							<div class="award-block mt-3">
+								<h5 class="fw-bold">Research Training Program Scholarship</h5>
+								<p class="mb-1"><b>Issued by James Cook University · Jan 2022</b></p>
+								<p>Awarded a highly competitive scholarship from JCU based on academic merit.</p>
+							</div>
+							<hr>
+
+							<!-- Award 5 -->
+							<div class="award-block mt-3">
+								<h5 class="fw-bold">University Medal</h5>
+								<p class="mb-1"><b>Issued by James Cook University · Sep 2021</b></p>
+								<p>For outstanding academic achievement in a combination of coursework studies and research undertaken at undergraduate level. Specifically, completion of an Honours research component, achievement of a Grade Point Average (GPA) greater than 6.50 for undergraduate subjects, achievement of a first class level A Honours rank, endorsed as eligible to receive the University medal by the relevant JCU College Dean, and of good character and a meritorious recipient for the medal.</p>
+								<a href="https://www.jcu.edu.au/graduation/university-medallists" class="link-dark" target="_blank"><i class="fa-solid fa-link"></i> View Award</a>
+								<a href="assets/documents/imgs/honors_awards/Medal_1.jpg" class="link-dark" target="_blank"><i class="fa-solid fa-link"></i> Photo</a>
+								<a href="assets/documents/imgs/honors_awards/Medal_2.jpg" class="link-dark" target="_blank"><i class="fa-solid fa-link"></i> Photo</a>
+							</div>
+							<hr>
+
+							<!-- Award 6 -->
+							<div class="award-block mt-3">
+								<h5 class="fw-bold">Letter of Commendation</h5>
+								<p class="mb-1"><b>Issued by James Cook University · May 2018</b></p>
+								<p>Awarded for achieving a GPA of 6.00 or higher for first-year IT subjects.</p>
+							</div>
+
+
+							<p></p>
+							<p></p>
+							<h4 class="mb-4">News</h4>
+							<hr>
+							<ul>
+								<li>January, 2025: I was appointed as the subject coordinator for CP2414: Network Security and CP2501: Cloud Computing.
+								</li>
+								<li>January, 2025: Our paper, 'LEAVES: An open-source web-based tool for the scalable annotation and visualisation of large-scale ecoacoustic datasets using cluster analysis',
+									was accepted by <a href="https://www.sciencedirect.com/journal/ecological-informatics">Ecological Informatics</a> <b>(IF=6.0)</b>
+								</li>
+								<li>
+									December, 2024: Contracted to lecture the JCU subjects CP1402: Internet Fundamentals and CP2414: Network Security in TR1, 2025.
+								</li>
+								<li>
+									December, 2024: The subject, CP2501/CP3511: Cloud Computing, which I lectured, recieved <b>84% overall satisfaction</b> from internal JCU student feedback.
+								</li>
+								<li>
+									December, 2024: The teaching and research grant project I collaborated on, CodeCraft: Augmented Learning for IT Students ($10,000), successfully passed student testing (26 participants) and evaluation, receiving >80% excellent overall ratings in terms of usefulness. 								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Experience & Skills -->
+				<div class="col-md-8 offset-md-1 mb-5 active"  id="experienceContent">
+				<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+				<link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+					<h4 class="mb-4">Experience & Skills</h4>
+					<hr>
+					
+
+					<!-- TimelineJS Container -->
+					<div id="timeline-embed" style="width: 100%; height: 600px;"></div>
+
+					<div class="mt-5">
+						<h4 class="mb-4">Key Skills</h2>
+						<hr>
+						<div class="row">
+							<!-- Programming Languages -->
+							<div class="col-md-6">
+								<h6 class="fw-bold">Programming Languages & Frameworks</h6>
+								<ul>
+									<li><strong>Proficient in:</strong> Python, JavaScript, C#, CSS3, HTML5, TensorFlow, PyTorch, Django, Flask, Unity, GitLab, LaTeX</li>
+									<li><strong>Familiar with:</strong> Java, Express.js, Linux, R, Jupyter Notebook, Ubuntu, Apple ARKit, AWS, Docker</li>
+									<li><strong>Currently Learning:</strong> Electron, TypeScript</li>
+								</ul>
+							</div>
+							
+							<!-- Tools & Environments -->
+							<div class="col-md-6">
+								<h6 class="fw-bold">Tools & Development Environments</h6>
+								<ul>
+									<li>GitHub, Android Studio, PyCharm, Visual Studio Code, Sublime Text, Ubuntu</li>
+									<li>REST APIs, Docker, PostgreSQL, librosa</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="row mt-4">
+							<!-- Machine Learning & AI -->
+							<div class="col-md-6">
+								<h6 class="fw-bold">Machine Learning & Data Science</h6>
+								<ul>
+									<li>Deep Learning: TensorFlow, PyTorch</li>
+									<li>Data Mining & Clustering: HDBSCAN, DBSCAN, UMAP</li>
+									<li>Object Detection, Augmented Reality (AR), librosa</li>
+									<li>Data Analysis, Visualization, Dimensionality Reduction</li>
+								</ul>
+							</div>
+							
+							<!-- Professional Skills -->
+							<div class="col-md-6">
+								<h6 class="fw-bold">Professional Skills</h6>
+								<ul>
+									<li>Leadership & Mentorship</li>
+									<li>Agile Development, Scrum Methodologies</li>
+									<li>Interpersonal Communication, Customer Service</li>
+									<li>Collaborative & Creative Problem-Solving</li>
+									<li>Technical Support & Troubleshooting</li>
+								</ul>
+							</div>
+						</div>
+					
+						<div class="row mt-4">
+							<!-- Teaching & Academic Skills -->
+							<div class="col-md-6">
+								<h6 class="fw-bold">Teaching & Academic Skills</h6>
+								<ul>
+									<li>University-level Teaching (IT Courses)</li>
+									<li>Curriculum Design (e.g., Data Mining, Cloud Computing)</li>
+									<li>Assessment Development & Evaluation</li>
+									<li>Student Mentorship & Support</li>
+								</ul>
+							</div>
+					
+							<!-- Other Technical Skills -->
+							<div class="col-md-6">
+								<h6 class="fw-bold">Other Technical Skills</h6>
+								<ul>
+									<li>Mobile Application Development</li>
+									<li>Motion Graphics, Game Design</li>
+									<li>Network Security & Troubleshooting</li>
+									<li>Search Engine Optimization (SEO)</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				<!-- TimelineJS Initialization -->
+				<script>
+					timeline = new TL.Timeline(
+						"timeline-embed",
+						"assets/js/timeline.json",
+						{ language: "en" }
+					);
+				</script>
+			</div>
+				
+
+
+
+				<!-- Publications -->
+				<div class="col-md-8 offset-md-1 mb-5" id="publicationsContent">
+					<div class="container">
+						<h4 class="mb-4">Publications</h4>
+							<hr>
+
+						<!-- Each new year -->
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2025</h2>
+							<hr>
+							<!-- Each new publication inside the given year -->
+							<div class="pub-block">
+								<!-- Title -->
+								<div class="lucida-console h5">LEAVES: An open-source web-based tool for the scalable annotation and visualisation of large-scale ecoacoustic datasets using cluster analysis</div>
+								<!-- Authors -->
+								<div class="pub-authors mt-1"><span class="pub-author">Thomas Napier</span>, Euijoon Ahn, Slade Allen-Ankins, Lin Schwarzkopf, Ickjai Lee</div>
+								<!-- Place -->
+								<div class="pub-congress">Ecological Informatics <b>(IF=6.0)</b> | January 2025</div>
+								<!-- Links -->
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="" target="_blank" class="link-dark ">PDF</a> </span>
+									<!-- This <a> with id citation, will automatically copy to the clipboard the bibtex citation -->
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
+								</div>
+								<!-- Citation -->
+								<div class="d-none">
+									<!-- Bibtex here -->
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2024</h2>
+							<hr>
+							<div class="pub-block">
+								<div class="lucida-console h5"><a href="https://www.sciencedirect.com/science/article/pii/S0957417424010868?via%3Dihub">Advancements in preprocessing, detection and classification techniques for ecoacoustic data: A comprehensive review for large-scale Passive Acoustic Monitoring</a>
+								</div>
+								<div class="pub-authors mt-1"><span class="pub-author">Thomas Napier</span>, Euijoon Ahn, Slade Allen-Ankins, Lin Schwarzkopf, Ickjai Lee</div>
+								<div class="pub-congress">Expert Systems with Applications <b>(IF=8.5)</b> | October 2024</div>
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/1-s2.0-S0957417424010868-main.pdf" target="_blank" class="link-dark ">PDF</a> </span>
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
+								</div>
+								<div class="d-none">
+									@article{NAPIER2024124220,
+										title = {Advancements in preprocessing, detection and classification techniques for ecoacoustic data: A comprehensive review for large-scale Passive Acoustic Monitoring},
+										journal = {Expert Systems with Applications},
+										volume = {252},
+										pages = {124220},
+										year = {2024},
+										issn = {0957-4174},
+										doi = {https://doi.org/10.1016/j.eswa.2024.124220},
+										url = {https://www.sciencedirect.com/science/article/pii/S0957417424010868},
+										author = {Thomas Napier and Euijoon Ahn and Slade Allen-Ankins and Lin Schwarzkopf and Ickjai Lee},
+										keywords = {Ecoacoustics, Passive acoustic monitoring, Deep learning, Machine learning, Acoustic signal processing, Bioacoustics, Species identification},
+										abstract = {Computational ecoacoustics has seen significant growth in recent decades, facilitated by the reduced costs of digital sound recording devices and data storage. This progress has enabled the continuous monitoring of vocal fauna through Passive Acoustic Monitoring (PAM), a technique used to record and analyse environmental sounds to study animal behaviours and their habitats. While the collection of ecoacoustic data has become more accessible, the effective analysis of this information to understand animal behaviours and monitor populations remains a major challenge. This survey paper presents the state-of-the-art ecoacoustics data analysis approaches, with a focus on their applicability to large-scale PAM. We emphasise the importance of large-scale PAM, as it enables extensive geographical coverage and continuous monitoring, crucial for comprehensive biodiversity assessment and understanding ecological dynamics over wide areas and diverse habitats. This large-scale approach is particularly vital in the face of rapid environmental changes, as it provides crucial insights into the effects of these changes on a broad array of species and ecosystems. As such, we outline the most challenging large-scale ecoacoustics data analysis tasks, including pre-processing, visualisation, data labelling, detection, and classification. Each is evaluated according to its strengths, weaknesses and overall suitability to large-scale PAM, and recommendations are made for future research directions.}
+										}</div>
+							</div>
+						</div>
+
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2023</h2>
+							<hr>
+
+							<div class="pub-block">
+								<div class="lucida-console h5"><a href="https://link.springer.com/chapter/10.1007/978-981-99-8388-9_38" target="_blank">An Optimised Grid Search Based Framework for Robust Large-Scale Natural Soundscape Classification
+								</a></div>
+								<div class="pub-authors mt-1"><span class="pub-author">Thomas Napier</span>, Euijoon Ahn, Slade Allen-Ankins, Ickjai Lee</div>
+								<div class="pub-congress">36th Australasian Joint Conference on Artificial Intelligence <b>(20% Acceptance Rate)</b> | November, 2023</div>
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/final-manuscript.pdf" target="_blank" class="link-dark">PDF</a> </span>
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
+								</div>
+								<div class="d-none">
+									@InProceedings{10.1007/978-981-99-8388-9_38,
+										author="Napier, Thomas
+										and Ahn, Euijoon
+										and Allen-Ankins, Slade
+										and Lee, Ickjai",
+										editor="Liu, Tongliang
+										and Webb, Geoff
+										and Yue, Lin
+										and Wang, Dadong",
+										title="An Optimised Grid Search Based Framework for Robust Large-Scale Natural Soundscape Classification",
+										booktitle="AI 2023: Advances in Artificial Intelligence",
+										year="2024",
+										publisher="Springer Nature Singapore",
+										address="Singapore",
+										pages="468--479",
+										abstract="Large-scale natural soundscapes are remarkably complex and offer invaluable insights into the biodiversity and health of ecosystems. Recent advances have shown promising results in automatically classifying the sounds captured using passive acoustic monitoring. However, the accuracy performance and lack of transferability across diverse environments remains a challenge. To rectify this, we propose a robust and flexible ecoacoustics sound classification grid search-based framework using optimised machine learning algorithms for the analysis of large-scale natural soundscapes. It consists of four steps: pre-processing including the application of spectral subtraction denoising to two distinct datasets extracted from the Australian Acoustic Observatory, feature extraction using Mel Frequency Cepstral Coefficients, feature reduction, and classification using a grid search approach for hyperparameter tuning across classifiers including Support Vector Machine, k-Nearest Neighbour, and Artificial Neural Networks. With 10-fold cross validation, our experimental results revealed that the best models obtained a classification accuracy of 96{\%} and above in both datasets across the four major categories of sound (biophony, geophony, anthrophony, and silence). Furthermore, cross-dataset validation experiments using a pooled dataset highlight that our framework is rigorous and adaptable, despite the high variance in possible sounds at each site.",
+										isbn="978-981-99-8388-9"
+										}										
+										</div>
+							</div>
+							<p></p>
+
+							<div class="pub-block">
+								<div class="lucida-console h5"><a href="https://www.sciencedirect.com/science/article/pii/S0168169923001321" target="_blank">Using mobile-based augmented reality and object detection for real-time Abalone growth monitoring</a></div>
+								<div class="pub-authors mt-1"><span class="pub-author">Thomas Napier</span>, Ickjai Lee</div>
+								<div class="pub-congress">Computers and Electronics in Agriculture <b>(IF=7.7)</b> | April, 2023</div>
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/Abalone.pdf" target="_blank" class="link-dark">PDF</a> </span>
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
+								</div>
+								<div class="d-none">
+									@article{NAPIER2023107744,
+										title = {Using mobile-based augmented reality and object detection for real-time Abalone growth monitoring},
+										journal = {Computers and Electronics in Agriculture},
+										volume = {207},
+										pages = {107744},
+										year = {2023},
+										issn = {0168-1699},
+										doi = {https://doi.org/10.1016/j.compag.2023.107744},
+										url = {https://www.sciencedirect.com/science/article/pii/S0168169923001321},
+										author = {Thomas Napier and Ickjai Lee},
+										keywords = {Deep learning, Greenlip Abalone, Augmented reality, Object detection, Aquaculture},
+										abstract = {Abalone are becoming increasingly popular for human consumption. Whilst their popularity has risen, measuring the number and size distribution of Abalone at various stages of growth in existing farms remains a significant challenge. Current Abalone stock management techniques rely on manual inspection which is time consuming, causes stress to the animal, and results in mediocre data quality. To rectify this, we propose a novel mobile-based tool which combines object detection and augmented reality for the real-time counting and measuring of Abalone, that is both network and location independent. We applied our portable handset tool to both measure and count Abalone at various growth stages, and performed extended measuring evaluation to assess the robustness of our proposed approach. Our experimental results revealed that the proposed tool greatly outperforms traditional approaches and was able to successfully count up to 15 Abalone at various life stages with above 95% accuracy, as well as significantly decrease the time taken to measure Abalone while still maintaining an accuracy within a maximum error range of 2.5% of the Abalone’s actual size.}
+										}
+										</div>
+							</div>
+		
+						</div>
+						<div class="row mt-3">
+							<h2 class="pub-year-h2">2022</h2>
+							<hr>
+
+							<div class="pub-block">
+								<div class="lucida-console h5"><a href="/assets/documents/publications/Ecoacoustics Symposium 2022 Poster.png" target="_blank">Species Classification Using Deep Learning Signal Processing Techniques in Large-Scale Natural Soundscapes</a></div>
+								<div class="pub-authors mt-1"><span class="pub-author">Thomas Napier</span>, Lin Schwarzkopf, Ickjai Lee, Euijoon Ahn, Slade Allen-Ankins</div>
+								<div class="pub-congress">QUT Ecoacoustics Symposium | November, 2022</div>
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/Ecoacoustics Symposium 2022 Poster.png" target="_blank" class="link-dark">Poster</a> </span>
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="assets/documents/publications/program-of-events_compressed.pdf" id="citation" class="link-dark">Program</a> </span>
+								</div>
+							</div>
+
+							<p></p>
+
+							<div class="pub-block">
+								<div class="lucida-console h5"><a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.180" target="_blank">One year of spectroscopic high-frequency measurements of atmospheric CO2, CH4, H2O and δ13C-CO2 at an Australian Savanna site</a></div>
+								<div class="pub-authors mt-1"><span class="pub-author">Niels C. Munksgaard</span>, Ickjai Lee, <b>Thomas Napier</b>, Costijn Zwart, Lucas A. Cernusak, Michael I. Bird</div>
+								<div class="pub-congress">Geoscience Data Journal <b>(IF=3.3)</b> | October, 2022</div>
+								<div class="mt-1">
+									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/GsDJ.pdf" target="_blank" class="link-dark">PDF</a> </span>
+									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
+								</div>
+								<div class="d-none">
+									@article{https://doi.org/10.1002/gdj3.180,
+										author = {Munksgaard, Niels C. and Lee, Ickjai and Napier, Thomas and Zwart, Costijn and Cernusak, Lucas A. and Bird, Michael I.},
+										title = {One year of spectroscopic high-frequency measurements of atmospheric CO, CH, HO and δC-CO at an Australian Savanna site},
+										journal = {Geoscience Data Journal},
+										volume = {10},
+										number = {4},
+										pages = {461-470},
+										keywords = {atmospheric CO2, CH4, NE Australia, savanna, δ13C-CO2},
+										doi = {https://doi.org/10.1002/gdj3.180},
+										url = {https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/gdj3.180},
+										eprint = {https://rmets.onlinelibrary.wiley.com/doi/pdf/10.1002/gdj3.180},
+										abstract = {Abstract We provide a 1-year dataset of atmospheric surface CO2, CH4 and H2O concentrations and δ13C-CO2 values from an Australian savanna site. These semi-arid ecosystems act as carbon sinks in wet years but the persistence of the sink in dry years is uncertain. The dataset can be used to constrain uncertainties in modelling of greenhouse gas budgets, improve algorithms for satellite measurements and characterize the role of vegetation and soil in modulating atmospheric CO2 concentrations. We found pronounced seasonal variations in daily mean CO2 concentrations with an increase (by 5–7 ppmv) after the first rainfall of the wet season in early December with peak concentrations maintained until late January. The CO2 increase reflected the initiation of rapid microbial respiration from soil and vegetation sources upon initial wetting. As the wet season progressed, daily CO2 concentrations were variable, but generally decreased back to dry season levels as CO2 assimilation by photosynthesis increased. Mean daily concentrations of CH4 increased in the wet season by up to 0.2 ppmv relative to dry season levels as the soil profile became waterlogged after heavy rainfall events. During the dry season there was regular cycling between maximum CO2/minimum δ13C-CO2 at night and minimum CO2/maximum δ13C-CO2 during the day. In the wet season diel patterns were less regular in response to variable cloud cover and rainfall. CO2 isotope data showed that in the wet season, surface CO2 was predominantly a two-component mixture influenced by C3 plant assimilation (day) and soil/plant respiration (night), while regional background air from higher altitudes represented an additional CO2 source in the dry season. Higher wind speeds during the dry season increased vertical mixing compared to the wet season. In addition, night-time advection of high-altitude air during low temperature conditions also promoted mixing in the dry season.},
+										year = {2022}
+										}
+										</div>
+							</div>					
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Include GLightbox CSS -->
+				<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
+				<!-- Projects Section -->
+				<div class="col-md-8 offset-md-1 mb-5" id="projectsContent">
+					<h4 class="mb-4">Projects</h4>
+					<hr>
+					<div class="row">
+						<!-- LEAVES Project -->
+							<div class="proj-block">
+								<h5 class="lucida-console"><a href="https://thomasnapier.github.io/LEAVES/">LEAVES: Large-scale Ecoacoustics Annotation and Visualization with Efficient Segmentation</a></h5>
+								<p>LEAVES is a Python Dash-based open-source tool designed for large-scale ecoacoustics annotation and visualization.</p>
+								<a href="assets/img/LEAVES_1.png" class="glightbox" data-gallery="leaves-gallery">
+									<img src="assets/img/LEAVES_1.png" alt="LEAVES Screenshot 1" class="img-fluid" style="width: 35%;">
+								</a>
+								<a href="assets/img/LEAVES_2.png" class="glightbox" data-gallery="leaves-gallery">
+									<img src="assets/img/LEAVES_2.png" alt="LEAVES Screenshot 2" class="img-fluid" style="width: 22%;">
+								</a>
+								<a href="assets/img/LEAVES_3.png" class="glightbox" data-gallery="leaves-gallery">
+									<img src="assets/img/LEAVES_3.png" alt="LEAVES Screenshot 2" class="img-fluid" style="width: 32%;">
+								</a>
+								<div class="mt-2">
+									<span> <i class="fa-brands fa-github"></i> <a href="https://github.com/thomasnapier/LEAVES" target="_blank" class="link-dark">Source Code</a> </span>
+									<span class="pub-force-margin-left"> <i class="fa-solid fa-link"></i> <a href="" target="_blank" class="link-dark">Paper</a> </span>
+									<span class="pub-force-margin-left"> <i class="fa-solid fa-link"></i> <a href="https://leaves-xuli.onrender.com/" target="_blank" class="link-dark">Live Demo</a> </span>
+								</div>
+							</div>
+							<p></p>
+							<hr>
+						<!-- CodeCraft Project -->
+							<div class="proj-block">
+								<h5 class="lucida-console"><a>CodeCraft: AR-based Database Normalization Tool</a></h5>
+								<p>CodeCraft is an augmented reality educational tool combining AR and AI to teach database normalization effectively.</p>
+								<a href="assets/img/CodeCraft_1.jpg" class="glightbox" data-gallery="codecraft-gallery">
+									<img src="assets/img/CodeCraft_1.jpg" alt="CodeCraft Screenshot 1" class="img-fluid" style="width: 32%;">
+								</a>
+								<a href="assets/img/CodeCraft_.jpg" class="glightbox" data-gallery="codecraft-gallery">
+									<img src="assets/img/CodeCraft_2.jpg" alt="CodeCraft Screenshot 2" class="img-fluid" style="width: 36%;">
+								</a>
+								<div class="mt-2">
+									<span> <i class="fa-brands fa-github"></i> <a href="" target="_blank" class="link-dark">[Private Source Code]</a> </span>
+							</div>
+							<p></p>
+							<hr>
+						<!-- Abalone Monitoring Project -->
+							<div class="proj-block">
+								<h5 class="lucida-console"><a href="https://github.com/thomasnapier/ARCore-Measurement" target="_blank">Real-time Abalone Monitoring with AR</a></h5>
+								<p>Developed a mobile tool combining AR and object detection to automate measurement and counting of Abalone in aquaculture.</p>
+								<a href="assets/img/Abalone_1.png" class="glightbox" data-gallery="abalone-gallery">
+									<img src="assets/img/Abalone_1.png" alt="Abalone Screenshot 1" class="img-fluid" style="width: 32%;">
+								</a>
+								<a href="assets/img/Abalone_2.png" class="glightbox" data-gallery="abalone-gallery">
+									<img src="assets/img/Abalone_2.png" alt="Abalone Screenshot 2" class="img-fluid" style="width: 32%;">
+								</a>
+								<a href="assets/img/Abalone_3.jpg" class="glightbox" data-gallery="abalone-gallery">
+									<img src="assets/img/Abalone_3.jpg" alt="Abalone Screenshot 3" class="img-fluid" style="width: 32%;">
+								</a>
+								<div class="mt-2">
+									<span> <i class="fa-brands fa-github"></i> <a href="https://github.com/thomasnapier/ARCore-Measurement" target="_blank" class="link-dark">Source Code</a> </span>
+									<span class="pub-force-margin-left"> <i class="fa-solid fa-link"></i> <a href="https://www.sciencedirect.com/science/article/pii/S0168169923001321" target="_blank" class="link-dark">Paper</a> </span>
+									<span class="pub-force-margin-left"> <i class="fa-solid fa-link"></i> <a href="assets/documents/dissertations/Final Honours Thesis - Thomas Napier.pdf" target="_blank" class="link-dark">Thesis</a> </span>
+								</div>
+							</div>
+							<p></p>
+						<hr>
+						<!-- Pirapelago Project -->
+							<div class="proj-block">
+								<h5 class="lucida-console"><a href="https://snecko.itch.io/pirapelago">Pirapelago: A Unity-based 2D Pirate-Themed Rogue-like Game</a></h5>
+								<p>Pirapelago is a pirate-themed rogue-like bullet hell developed by a small team for a university project. Experience multiple enemy types, ship upgrades, and scaling difficulty as you fight your way across the archipelago.</p>
+								<a href="assets/img/Pirapelago_1.jpg" class="glightbox" data-gallery="pirapelago-gallery">
+									<img src="assets/img/Pirapelago_1.jpg" alt="Pirapelago Screenshot 1" class="img-fluid" style="width: 32%;">
+								</a>
+								<a href="assets/img/Pirapelago_2.jpg" class="glightbox" data-gallery="pirapelago-gallery">
+									<img src="assets/img/Pirapelago_2.jpg" alt="Pirapelago Screenshot 2" class="img-fluid" style="width: 32%;">
+								</a>
+								<a href="assets/img/Pirapelago_3.jpg" class="glightbox" data-gallery="pirapelago-gallery">
+									<img src="assets/img/Pirapelago_3.jpg" alt="Pirapelago Screenshot 3" class="img-fluid" style="width: 32%;">
+								</a>
+								<div class="mt-2">
+									<span> <i class="fa-brands fa-github"></i> <a href="https://github.com/thomasnapier/CP3408_GameProject" target="_blank" class="link-dark">Source Code</a> </span>
+									<span class="pub-force-margin-left"> <i class="fa-solid fa-link"></i> <a href="https://snecko.itch.io/pirapelago" target="_blank" class="link-dark">Live Demo</a> </span>
+								</div>
+							</div>
+							<p></p>
+							<hr>
+							<!-- Education Game Project -->
+								<div class="proj-block">
+									<h5 class="lucida-console"><a href="">TrueLogic: An interactive Mobile-Based Problem-Solving Education Game</a></h5>
+									<p>TrueLogic is a simple timed quiz-style Android app aimed at early highschool kids to help improve thier problem-solving and lateral thinking skills. It includes accelerometer gesture control, basic social network integration with Twitter4J API and high score recordkeeping with SQLite.</p>
+									<a href="assets/img/TrueLogic_2.jpg" class="glightbox" data-gallery="truelogic-gallery">
+										<img src="assets/img/TrueLogic_2.jpg" alt="TrueLogic Screenshot 1" class="img-fluid" style="width: 32%;">
+									</a>
+									<a href="assets/img/TrueLogic_1.jpg" class="glightbox" data-gallery="truelogic-gallery">
+										<img src="assets/img/TrueLogic_1.jpg" alt="TrueLogic Screenshot 2" class="img-fluid" style="width: 30%;">
+									</a>
+									<div class="mt-2">
+										<span> <i class="fa-brands fa-github"></i> <a href="https://github.com/thomasnapier/" target="_blank" class="link-dark">Source Code</a> </span>
+									</div>
+								</div>
+								<p></p>
+								<hr>
+								<div class="row mt-3">
+									<div class="proj-block">
+										<!-- Title -->
+										<div class="lucida-console h5"><a href="https://www.youtube.com/watch?v=OU7ZlN_G47A">Interference: Motion Graphics TV Show Intro</a></div>
+										<!-- Description -->
+										<div class="proj-desc mt-1">
+											Created a high-energy motion graphics intro for a hypothetical TV show, "Interference," inspired by the hacking and cyberpunk themes of Ubisoft's WatchDogs*. The intro featured glitch effects, dynamic text animations, and a neon-hued urban aesthetic. The short film simulated a world of digital intrusion, surveillance, and hacking set in a futuristic cityscape.
+										</div>
+										<!-- Images -->
+										<div class="proj-images mt-2">
+											<a href="assets/img/Interference_2.jpg" class="glightbox">
+												<img src="assets/img/Interference_2.jpg" alt="Interference Glitch Effect" class="img-fluid me-2" style="width: 32%;">
+											</a>
+											<a href="assets/img/Interference_3.jpg" class="glightbox">
+												<img src="assets/img/Interference_3.jpg" alt="Cyberpunk Urban Aesthetic" class="img-fluid" style="width: 32%;">
+											</a>
+											<a href="assets/img/Interference_1.jpg" class="glightbox">
+												<img src="assets/img/Interference_1.jpg" alt="Cyberpunk Urban Aesthetic" class="img-fluid" style="width: 32%;">
+											</a>
+										</div>
+										<!-- Links -->
+										<div class="mt-2">
+											<span> <i class="fa-brands fa-youtube"></i> <a href="https://www.youtube.com/watch?v=OU7ZlN_G47A" target="_blank" class="link-dark">Watch Short Film</a> </span>
+										</div>
+									</div>
+								</div>
+								
+					</div>
+				</div>
+
+				<!-- Include GLightbox JS -->
+				<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+				<script>
+					// Initialize GLightbox
+					const lightbox = GLightbox({ selector: '.glightbox' });
+				</script>
+			</div>
+			<!-- Cool Links -->
+			<div class="col-md-8 offset-md-1 mb-5" id="linksContent">
+				<h4 class="mb-4">Cool Links</h4>
+				<hr>
+
+				<!-- Tools -->
+				<h5 class="mb-3">Tools (AI, and others)</h5>
+				<ul class="list-group mb-4">
+					<li class="list-group-item">
+						<h6><a href="https://elicit.com/" target="_blank"><i class="fa-solid fa-link"></i> Elicit</a></h6>
+						<p>Elicit uses language models to extract data from and summarize research papers.</p>
+					</li>
+					<li class="list-group-item">
+						<h6><a href="https://obsidian.md/" target="_blank"><i class="fa-solid fa-link"></i> Obsidian</a></h6>
+						<p>Obsidian is the private and flexible writing app that adapts to the way you think.</p>
+					</li>
+					<li class="list-group-item">
+						<h6><a href="https://quillbot.com/" target="_blank"><i class="fa-solid fa-link"></i> Quillbot</a></h6>
+						<p>QuillBot helps to rewrite and paraphrase text using AI.</p>
+					</li>
+				</ul>
+
+				<!-- Academic -->
+				<h5 class="mb-3">Research/Academic</h5>
+				<ul class="list-group mb-4">
+					<li class="list-group-item">
+						<h6><a href="https://vertecolab.weebly.com/" target="_blank"><i class="fa-solid fa-link"></i> Vertebrate Ecology Lab</a></h6>
+						<p>Research lab I am involved with focusing on the intersection of ecology, evolution and behavioural ecology of vertebrates.</p>
+					</li>
+					<li class="list-group-item">
+						<h6><a href="https://aideadlin.es/?sub=ML,DM" target="_blank"><i class="fa-solid fa-link"></i> AI Conference Deadlines</a></h6>
+						<p>Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines.</p>
+					</li>
+					<li class="list-group-item">
+						<h6><a href="https://www.core.edu.au/conference-portal" target="_blank"><i class="fa-solid fa-link"></i> CORE Rankings Portal</a></h6>
+						<p>For viewing conference rankings.</p>
+					</li>
+					<li class="list-group-item">
+						<h6><a href="https://www.scimagojr.com/" target="_blank"><i class="fa-solid fa-link"></i> Scimago Journal & Country Rank</a></h6>
+						<p>For viewing journal rankings.</p>
+					</li>
+				</ul>
+
+				<!-- Other -->
+				<h5 class="mb-3">Other</h5>
+				<ul class="list-group mb-4">
+					<li class="list-group-item">
+						<h6><a href="https://12ft.io/" target="_blank"><i class="fa-solid fa-link"></i> 12ft Ladder</a></h6>
+						<p>Remove popups, banners, ads and paywalls from any website.</p>
+					</li>
+					<li class="list-group-item">
+						<h6><a href="https://app.diagrams.net/" target="_blank"><i class="fa-solid fa-link"></i> DrawIO</a></h6>
+						<p>draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.</p>
+					</li>
+				</ul>
+
+				<!-- God -->
+				<h5 class="mb-3">God (Psalm 34:4-5, 8)</h5>
+				<ul class="list-group mb-4">
+					<li class="list-group-item">
+						<h6><a href="https://www.biblegateway.com/" target="_blank"><i class="fa-solid fa-link"></i> BibleGateway</a></h6>
+						<p>For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. For God did not send his Son into the world to condemn the world, but to save the world through him - John 3:16-17</p>
+					</li>
+					<li class="list-group-item">
+						<h6><a href="https://www.bibleref.com/" target="_blank"><i class="fa-solid fa-link"></i> BibleRef</a></h6>
+						<p>Online Bible commentary.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<!-- Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+		<script src="assets/js/languageManager.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+
+</html>

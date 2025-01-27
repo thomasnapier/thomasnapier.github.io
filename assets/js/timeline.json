@@ -1,0 +1,114 @@
+{
+    "title": {
+        "text": {
+            "headline": "Professional Experience Timeline",
+            "text": "An interactive timeline highlighting my key milestones and roles during my career so far."
+        }
+    },
+    "events": [
+        {
+            "media": {
+                "url": "https://scontent.fbne3-1.fna.fbcdn.net/v/t39.30808-6/347432109_225423400207913_7092732218176318666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=b-hokN9Op9wQ7kNvgHbHZHH&_nc_zt=23&_nc_ht=scontent.fbne3-1.fna&_nc_gid=As6ssE_Q5wMOvJWpUUUDi0v&oh=00_AYAEIskFZcfHCT1_0YaAa06-ULeNhYsNK1T6xXDzKK0e_A&oe=679C48F9",
+                "caption": "James Cook University"
+            },
+            "start_date": {
+                "year": "2022",
+                "month": "07"
+            },
+            "end_date": {
+                "year": "2025"
+            },
+            "text": {
+                "headline": "Lecturer at James Cook University",
+                "text": "<ul><li>Network Security (2025)</li><li>Internet Fundamentals (2025)</li><li>Cloud Computing (2024)</li><li>Database Modelling (2024)</li><li>e-Strategic Management (2022)</li></ul>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://scontent.fbne3-1.fna.fbcdn.net/v/t39.30808-6/347432109_225423400207913_7092732218176318666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=b-hokN9Op9wQ7kNvgHbHZHH&_nc_zt=23&_nc_ht=scontent.fbne3-1.fna&_nc_gid=As6ssE_Q5wMOvJWpUUUDi0v&oh=00_AYAEIskFZcfHCT1_0YaAa06-ULeNhYsNK1T6xXDzKK0e_A&oe=679C48F9",
+                "caption": "James Cook University"
+            },
+            "start_date": {
+                "year": "2022",
+                "month": "03"
+            },
+            "end_date": {
+                "year": "2025"
+            },
+            "text": {
+                "headline": "IT@JCU Industry Advisory Board Member",
+                "text": "Providing strategic advice to align IT education with industry demands."
+            }
+        },
+        {
+            "media": {
+                "url": "https://scontent.fbne3-1.fna.fbcdn.net/v/t39.30808-6/347432109_225423400207913_7092732218176318666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=b-hokN9Op9wQ7kNvgHbHZHH&_nc_zt=23&_nc_ht=scontent.fbne3-1.fna&_nc_gid=As6ssE_Q5wMOvJWpUUUDi0v&oh=00_AYAEIskFZcfHCT1_0YaAa06-ULeNhYsNK1T6xXDzKK0e_A&oe=679C48F9",
+                "caption": "James Cook University"
+            },
+            "start_date": {
+                "year": "2021",
+                "month": "03"
+            },
+            "end_date": {
+                "year": "2025"
+            },
+            "text": {
+                "headline": "Research Worker",
+                "text": "<p>Worked on multidisciplinary research projects including deep learning models for marine biology, car insurance, and tourism data mining.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://scontent.fbne3-1.fna.fbcdn.net/v/t39.30808-6/347432109_225423400207913_7092732218176318666_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=b-hokN9Op9wQ7kNvgHbHZHH&_nc_zt=23&_nc_ht=scontent.fbne3-1.fna&_nc_gid=As6ssE_Q5wMOvJWpUUUDi0v&oh=00_AYAEIskFZcfHCT1_0YaAa06-ULeNhYsNK1T6xXDzKK0e_A&oe=679C48F9",
+                "caption": "James Cook University"
+            },
+            "start_date": {
+                "year": "2019",
+                "month": "02"
+            },
+            "end_date": {
+                "year": "2025"
+            },
+            "text": {
+                "headline": "Teaching Assistant",
+                "text": "<p>Delivered courses for a range of IT subjects. Redesigned practical curriculum and course material, ensuring alignment with industry practices. Guided students and assessed work.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://scontent.fbne3-1.fna.fbcdn.net/v/t39.30808-6/448997809_446422421475512_1971341027113142810_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=yxLXu1x51ocQ7kNvgEpWvDJ&_nc_zt=23&_nc_ht=scontent.fbne3-1.fna&_nc_gid=ATxN2yh-mIcKN6nSKWv-b5v&oh=00_AYA4nyWickRzt2vLmRnddievxoFXmxhXLQBDrgjRj-LYlA&oe=679C422F",
+                "caption": "Glencore Australia"
+            },
+            "start_date": {
+                "year": "2018",
+                "month": "02"
+            },
+            "end_date": {
+                "year": "2021",
+                "month": "08"
+            },
+            "text": {
+                "headline": "Service Desk Analyst at Glencore",
+                "text": "<p>Level 1/2 IT support for over 13,000 users, including Active Directory Administration, Microsoft Exchange, and network troubleshooting.</p>"
+            }
+        },
+        {
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/North_Queensland_Cowboys_logo.svg/1280px-North_Queensland_Cowboys_logo.svg.png",
+                "caption": "North Queensland Toyota Cowboys"
+            },
+            "start_date": {
+                "year": "2019",
+                "month": "12"
+            },
+            "end_date": {
+                "year": "2019",
+                "month": "12"
+            },
+            "text": {
+                "headline": "Professional Intern",
+                "text": "Developed a custom dashboard to display real-time club performance indicators."
+            }
+        }
+    ]
+}
