@@ -291,6 +291,61 @@ color: #2bd284 !important; /* Optional: Changes color on hover */
     color: var(--bs-body-color) !important; /* Ensure text adapts to the mode */
 }
 
+.sticky-panel {
+    position: sticky;
+    top: 20px;        /* distance from top of viewport */
+    height: fit-content;
+}
+
+@media (max-width: 992px) {
+    /* Disable stickiness on mobile for better behaviour */
+    .sticky-panel {
+        position: static;
+    }
+}
+
+.awards-balanced {
+    margin-left: 0;
+}
+
+.award-item {
+    padding: 8px 0 8px 12px;
+    border-left: 2px solid #2bd284;  /* green accent line */
+    margin-bottom: 12px;
+}
+
+.award-item:last-child {
+    margin-bottom: 0;
+}
+
+.award-title {
+    font-weight: 600;
+}
+
+.award-meta {
+    font-size: 0.85rem;
+    margin-left: 4px;
+}
+
+.award-desc {
+    font-size: 0.9rem;
+    margin: 2px 0 0 0;
+}
+
+/* green links/icons */
+.awards-balanced a,
+.awards-balanced a i {
+    color: #2bd284 !important;
+    font-size: 0.85rem;
+    margin-left: 6px;
+}
+
+.awards-balanced a:hover,
+.awards-balanced a i:hover {
+    text-decoration: underline;
+    color: #2bd284 !important;
+}
+
 /* MEDIA QUERIES */
 /* BIGGER SCREENS */
 @media (min-width: 768px) {
